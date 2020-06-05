@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="camera.com.ti.ccstudio.buildDefinitions.C6000.ProjectType.150618929" name="C6000" projectType="com.ti.ccstudio.buildDefinitions.C6000.ProjectType">
+<configuration artifactExtension="out" artifactName="camera" description="" id="com.ti.ccstudio.buildDefinitions.C6000.Debug.1960627415" name="Debug" parent="com.ti.ccstudio.buildDefinitions.C6000.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.DebugToolchain.1151376053" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.801564318">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.167688295" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=com.ti.ccstudio.deviceModel.C6000.GenericC674xDevice"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.2.4"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.986421994" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.2.3" valueType="string"/>
+<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug.1726418572" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING.1050501277" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION.55377401" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION" value="6740" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH.224675582" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${PROJECT_ROOT}/inc&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.457490674" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.coffabi" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPTIMIZER_INTERLIST.98415801" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPTIMIZER_INTERLIST" value="true" valueType="boolean"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.REMOVE_HOOKS_WHEN_INLINING.460818410" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.REMOVE_HOOKS_WHEN_INLINING" value="true" valueType="boolean"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_FOR_SPEED.1051897351" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_FOR_SPEED" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.OPT_FOR_SPEED.4" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.GEN_OPT_INFO.1706742878" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.GEN_OPT_INFO" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.GEN_OPT_INFO.2" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug.801564318" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE.1645152632" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE" value="&quot;camera.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE.1280297545" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE" value="&quot;camera.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.LIBRARY.717115218" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH.690203630" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+</configuration>
+<configuration artifactExtension="out" artifactName="camera" description="" id="com.ti.ccstudio.buildDefinitions.C6000.Release.1976138" name="Release" parent="com.ti.ccstudio.buildDefinitions.C6000.Release">
+<toolChain id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.ReleaseToolchain.813522951" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.604184427">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.2116245766" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=com.ti.ccstudio.deviceModel.C6000.GenericC674xDevice"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+<listOptionValue builtIn="false" value="OUTPUT_FORMAT=COFF"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.2.4"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE="/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=libc.a"/>
+<listOptionValue builtIn="false" value="OUTPUT_TYPE=executable"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.222663233" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="7.2.3" valueType="string"/>
+<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease.1517905547" name="C6000 Compiler" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.compilerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING.1209206256" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION.1312768777" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.SILICON_VERSION" value="6740" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH.906467908" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.1032861353" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI" value="com.ti.ccstudio.buildDefinitions.C6000_7.2.compilerID.ABI.coffabi" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease.604184427" name="C6000 Linker" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.exe.linkerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE.691428351" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.OUTPUT_FILE" value="&quot;camera.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE.211345924" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.MAP_FILE" value="&quot;camera.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.LIBRARY.639354718" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH.437425947" superClass="com.ti.ccstudio.buildDefinitions.C6000_7.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+</tool>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>
